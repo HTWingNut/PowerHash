@@ -11,8 +11,7 @@ https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powers
 <b>**** KNOWN ISSUES:</b>  
 
 https://github.com/PowerShell/PowerShell/issues/20711  
-A bug in PowerShell 7.4.0 with the 'Group-Object' cmdlet will throw and error with filenames that contain curly brackets '{' or '}'. This is fixed in PowerShell Preview 7.4.0.101, and should be implemented in a future stable PowerShell release. This was noticed during testing of PowerHash, but no provisions will be made  to circumvent this issue in the PowerHash script since it has been addressed by PowerShell itself. So if you have any file names that contain curly brackets, please update to the PowerShell preview version until stable release 7.4.0 is superceded, or rename your files to remove or replace the curly brackets.
-
+A bug in PowerShell 7.4.0 with the 'Group-Object' cmdlet will throw and error with filenames that contain curly brackets '{' or '}'. This has been fixed with latest release of PowerShell 7.4.1.
 
 <b>**** POWERHASH README ****</b>
 
